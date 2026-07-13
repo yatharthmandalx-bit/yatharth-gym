@@ -1,0 +1,28 @@
+.hero-title{
+font-size:80px;
+font-weight:900;
+line-height:1;
+text-transform:uppercase;
+color:#fff;
+text-shadow:
+0 2px 0 #8b6b00,
+0 4px 0 #7a5d00,
+0 6px 0 #695000,
+0 8px 20px rgba(0,0,0,.8);
+letter-spacing:4px;
+}
+
+.hero-title span{
+display:block;
+background:linear-gradient(180deg,#ffd700,#ffb300,#8b6508);
+-webkit-background-clip:text;
+-webkit-text-fill-color:transparent;
+text-shadow:none;
+}
+
+.hero-subtitle{
+margin-top:20px;
+font-size:20px;
+color:#ddd;
+letter-spacing:2px;
+}
