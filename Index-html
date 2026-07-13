@@ -1,0 +1,273 @@
+!DOCTYPE html>
+<html lang="hi">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>YATHARTH Gym — Strength. Discipline. Legacy.</title>
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Cinzel:wght@500;600;700&family=Jost:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+<nav id="navbar">
+  <div class="container nav-inner">
+    <div class="logo">YATH<span>A</span>RTH</div>
+    <ul class="nav-links">
+      <li><a href="#about">About</a></li>
+      <li><a href="#timings">Timings</a></li>
+      <li><a href="#types">Training</a></li>
+      <li><a href="#plans">Membership</a></li>
+      <li><a href="#reviews">Reviews</a></li>
+      <li><a href="#contact">Contact</a></li>
+    </ul>
+    <button class="burger" id="burgerBtn" aria-label="Open menu">
+      <span></span><span></span><span></span>
+    </button>
+  </div>
+</nav>
+
+<div class="mobile-menu" id="mobileMenu">
+  <button class="mobile-close" id="closeBtn" aria-label="Close menu">&times;</button>
+  <a href="#about">About</a>
+  <a href="#timings">Timings</a>
+  <a href="#types">Training</a>
+  <a href="#plans">Membership</a>
+  <a href="#reviews">Reviews</a>
+  <a href="#contact">Contact</a>
+</div>
+
+<!-- HERO -->
+<header class="hero">
+  <div class="hero-content">
+    <span class="hero-eyebrow">Premium Strength Studio</span>
+    <h1 class="wordmark gold-text">YATHARTH</h1>
+    <div class="hero-sub">Gym &amp; Fitness Studio</div>
+    <p class="hero-tag">Iron sharpens iron. A disciplined space built for real strength, real results — where every rep is measured in legacy, not just reps.</p>
+    <div class="cta-row">
+      <a href="#plans" class="btn btn-gold">View Membership</a>
+      <a href="https://www.instagram.com/ym_webstudio?igsh=d2F5ZjRlc3ZlYWIz&utm_source=qr" target="_blank" class="btn btn-outline">Follow Us</a>
+    </div>
+  </div>
+  <div class="scroll-cue"><span></span></div>
+</header>
+
+<!-- ABOUT -->
+<section class="about" id="about">
+  <div class="container about-grid">
+    <div class="about-img reveal">
+      <img src="https://images.unsplash.com/photo-1603077492579-39ff927823db?fm=jpg&q=80&w=900&auto=format&fit=crop" alt="Yatharth Gym training floor">
+    </div>
+    <div class="reveal">
+      <span class="eyebrow">Our Philosophy</span>
+      <h2>Built For Those Who <span class="gold-text">Refuse To Settle</span></h2>
+      <p>YATHARTH isn't just a gym — it's a discipline. Every corner of this space, from the flooring to the free-weight zone, is designed for people serious about their transformation.</p>
+      <p>With certified trainers, premium equipment, and a distraction-free environment, we help you train with intent — whether your goal is strength, physique, or performance.</p>
+      <div class="stat-row">
+        <div class="stat"><b>500+</b><span>Active Members</span></div>
+        <div class="stat"><b>8</b><span>Expert Trainers</span></div>
+        <div class="stat"><b>5</b><span>Years Legacy</span></div>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- TIMINGS -->
+<section id="timings">
+  <div class="container">
+    <div class="section-head reveal">
+      <span class="eyebrow">Gym Hours</span>
+      <h2>Train On Your Time</h2>
+      <p>Open every day of the week across two focused sessions — early morning and evening.</p>
+    </div>
+    <div class="timing-grid reveal">
+      <div class="timing-card">
+        <div class="icon-3d">
+          <svg width="32" height="32" viewBox="0 0 24 24" fill="none"><circle cx="12" cy="12" r="9" fill="url(#gradClock1)" stroke="#8a6d2e" stroke-width="0.5"/><path d="M12 7v5l3 2" stroke="#0c0b09" stroke-width="1.6" stroke-linecap="round"/><defs><linearGradient id="gradClock1" x1="0" y1="0" x2="24" y2="24"><stop offset="0%" stop-color="#f2dc9e"/><stop offset="50%" stop-color="#c8a24d"/><stop offset="100%" stop-color="#8a6d2e"/></linearGradient></defs></svg>
+        </div>
+        <h3>Morning Session</h3>
+        <div class="hours">5:00 AM – 11:00 AM</div>
+        <div class="days">Monday – Sunday</div>
+      </div>
+      <div class="timing-card">
+        <div class="icon-3d">
+          <svg width="32" height="32" viewBox="0 0 24 24" fill="none"><circle cx="12" cy="12" r="9" fill="url(#gradClock2)" stroke="#8a6d2e" stroke-width="0.5"/><path d="M12 7v5l4 1" stroke="#0c0b09" stroke-width="1.6" stroke-linecap="round"/><defs><linearGradient id="gradClock2" x1="0" y1="0" x2="24" y2="24"><stop offset="0%" stop-color="#f2dc9e"/><stop offset="50%" stop-color="#c8a24d"/><stop offset="100%" stop-color="#8a6d2e"/></linearGradient></defs></svg>
+        </div>
+        <h3>Evening Session</h3>
+        <div class="hours">4:00 PM – 10:00 PM</div>
+        <div class="days">Monday – Sunday</div>
+      </div>
+    </div>
+    <p class="timing-note">Sunday half-day &nbsp;•&nbsp; Trainer-assisted slots available on prior booking</p>
+  </div>
+</section>
+
+<!-- TRAINING TYPES -->
+<section class="types" id="types">
+  <div class="container">
+    <div class="section-head reveal">
+      <span class="eyebrow">What We Offer</span>
+      <h2>Training For Every Goal</h2>
+      <p>From building raw strength to shedding fat — pick the training style that fits your journey.</p>
+    </div>
+    <div class="type-grid reveal">
+      <div class="type-card">
+        <div class="icon-3d">
+          <svg width="34" height="34" viewBox="0 0 24 24" fill="none"><rect x="2" y="10" width="3" height="4" rx="0.5" fill="url(#g1)"/><rect x="19" y="10" width="3" height="4" rx="0.5" fill="url(#g1)"/><rect x="5" y="8" width="2.4" height="8" rx="0.5" fill="url(#g1)"/><rect x="16.6" y="8" width="2.4" height="8" rx="0.5" fill="url(#g1)"/><rect x="7.4" y="11" width="9.2" height="2" rx="1" fill="url(#g1)"/><defs><linearGradient id="g1" x1="0" y1="0" x2="24" y2="24"><stop offset="0%" stop-color="#f2dc9e"/><stop offset="50%" stop-color="#c8a24d"/><stop offset="100%" stop-color="#8a6d2e"/></linearGradient></defs></svg>
+        </div>
+        <h3>Strength Training</h3>
+        <p>Free weights, barbells &amp; progressive overload programs for raw power.</p>
+      </div>
+      <div class="type-card">
+        <div class="icon-3d">
+          <svg width="34" height="34" viewBox="0 0 24 24" fill="none"><path d="M3 13l4-6 4 8 4-10 4 8h2" stroke="url(#g2)" stroke-width="2.4" stroke-linecap="round" stroke-linejoin="round"/><defs><linearGradient id="g2" x1="0" y1="0" x2="24" y2="24"><stop offset="0%" stop-color="#f2dc9e"/><stop offset="50%" stop-color="#c8a24d"/><stop offset="100%" stop-color="#8a6d2e"/></linearGradient></defs></svg>
+        </div>
+        <h3>Weight Loss &amp; Cardio</h3>
+        <p>High-energy circuits and cardio zones built to burn fat efficiently.</p>
+      </div>
+      <div class="type-card">
+        <div class="icon-3d">
+          <svg width="34" height="34" viewBox="0 0 24 24" fill="none"><path d="M12 2l2.4 6.5L21 10l-5 4.2L17.5 21 12 17l-5.5 4L8 14.2 3 10l6.6-1.5z" fill="url(#g3)" stroke="#8a6d2e" stroke-width="0.4"/><defs><linearGradient id="g3" x1="0" y1="0" x2="24" y2="24"><stop offset="0%" stop-color="#f2dc9e"/><stop offset="50%" stop-color="#c8a24d"/><stop offset="100%" stop-color="#8a6d2e"/></linearGradient></defs></svg>
+        </div>
+        <h3>Functional / CrossFit</h3>
+        <p>Explosive, full-body functional workouts to build athletic capability.</p>
+      </div>
+      <div class="type-card">
+        <div class="icon-3d">
+          <svg width="34" height="34" viewBox="0 0 24 24" fill="none"><circle cx="12" cy="8" r="3.4" fill="url(#g4)" stroke="#8a6d2e" stroke-width="0.4"/><path d="M5 21c0-3.9 3.1-7 7-7s7 3.1 7 7" fill="url(#g4)" stroke="#8a6d2e" stroke-width="0.4"/><defs><linearGradient id="g4" x1="0" y1="0" x2="24" y2="24"><stop offset="0%" stop-color="#f2dc9e"/><stop offset="50%" stop-color="#c8a24d"/><stop offset="100%" stop-color="#8a6d2e"/></linearGradient></defs></svg>
+        </div>
+        <h3>Personal Training</h3>
+        <p>1-on-1 coaching with a dedicated trainer for focused, faster results.</p>
+      </div>
+      <div class="type-card">
+        <div class="icon-3d">
+          <svg width="34" height="34" viewBox="0 0 24 24" fill="none"><path d="M12 21s-7-4.5-9.5-9C.8 8.4 2.7 4.5 6.5 4.5c2 0 3.5 1.3 5.5 3.5 2-2.2 3.5-3.5 5.5-3.5 3.8 0 5.7 3.9 4 7.5C19 16.5 12 21 12 21z" fill="url(#g5)" stroke="#8a6d2e" stroke-width="0.4"/><defs><linearGradient id="g5" x1="0" y1="0" x2="24" y2="24"><stop offset="0%" stop-color="#f2dc9e"/><stop offset="50%" stop-color="#c8a24d"/><stop offset="100%" stop-color="#8a6d2e"/></linearGradient></defs></svg>
+        </div>
+        <h3>Zumba &amp; Group Classes</h3>
+        <p>High-energy group sessions that make fitness feel fun, not forced.</p>
+      </div>
+      <div class="type-card">
+        <div class="icon-3d">
+          <svg width="34" height="34" viewBox="0 0 24 24" fill="none"><circle cx="12" cy="12" r="9" fill="url(#g6)" stroke="#8a6d2e" stroke-width="0.4"/><path d="M12 6v12M6 12h12" stroke="#0c0b09" stroke-width="1.6" stroke-linecap="round"/><defs><linearGradient id="g6" x1="0" y1="0" x2="24" y2="24"><stop offset="0%" stop-color="#f2dc9e"/><stop offset="50%" stop-color="#c8a24d"/><stop offset="100%" stop-color="#8a6d2e"/></linearGradient></defs></svg>
+        </div>
+        <h3>Diet &amp; Nutrition</h3>
+        <p>Personalised diet charts to complement your training and speed recovery.</p>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- PLANS -->
+<section id="plans">
+  <div class="container">
+    <div class="section-head reveal">
+      <span class="eyebrow">Membership</span>
+      <h2>Choose Your Plan</h2>
+      <p>Simple, transparent pricing — no hidden charges. Cancel or upgrade anytime.</p>
+    </div>
+    <div class="plan-grid reveal">
+      <div class="plan-card">
+        <div class="plan-name">Silver</div>
+        <div class="plan-price">₹1,500 <span>/ month</span></div>
+        <div class="plan-cycle">or ₹8,000 for 6 months</div>
+        <ul class="plan-features">
+          <li><svg width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="#c8a24d" stroke-width="2"><path d="M20 6L9 17l-5-5"/></svg> Gym floor access</li>
+          <li><svg width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="#c8a24d" stroke-width="2"><path d="M20 6L9 17l-5-5"/></svg> Cardio &amp; free weights</li>
+          <li><svg width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="#c8a24d" stroke-width="2"><path d="M20 6L9 17l-5-5"/></svg> Locker access</li>
+        </ul>
+        <a href="#contact" class="plan-btn">Get Started</a>
+      </div>
+      <div class="plan-card featured">
+        <span class="plan-tag">Most Popular</span>
+        <div class="plan-name">Gold</div>
+        <div class="plan-price">₹2,500 <span>/ month</span></div>
+        <div class="plan-cycle">or ₹13,500 for 6 months</div>
+        <ul class="plan-features">
+          <li><svg width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="#c8a24d" stroke-width="2"><path d="M20 6L9 17l-5-5"/></svg> Everything in Silver</li>
+          <li><svg width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="#c8a24d" stroke-width="2"><path d="M20 6L9 17l-5-5"/></svg> Group classes included</li>
+          <li><svg width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="#c8a24d" stroke-width="2"><path d="M20 6L9 17l-5-5"/></svg> Monthly diet chart</li>
+          <li><svg width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="#c8a24d" stroke-width="2"><path d="M20 6L9 17l-5-5"/></svg> 2 PT sessions / month</li>
+        </ul>
+        <a href="#contact" class="plan-btn">Get Started</a>
+      </div>
+      <div class="plan-card">
+        <div class="plan-name">Platinum</div>
+        <div class="plan-price">₹4,000 <span>/ month</span></div>
+        <div class="plan-cycle">or ₹22,000 for 6 months</div>
+        <ul class="plan-features">
+          <li><svg width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="#c8a24d" stroke-width="2"><path d="M20 6L9 17l-5-5"/></svg> Everything in Gold</li>
+          <li><svg width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="#c8a24d" stroke-width="2"><path d="M20 6L9 17l-5-5"/></svg> Unlimited PT sessions</li>
+          <li><svg width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="#c8a24d" stroke-width="2"><path d="M20 6L9 17l-5-5"/></svg> Priority equipment access</li>
+        </ul>
+        <a href="#contact" class="plan-btn">Get Started</a>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- REVIEWS -->
+<section class="reviews" id="reviews">
+  <div class="container">
+    <div class="section-head reveal">
+      <span class="eyebrow">Member Stories</span>
+      <h2>What Our Members Say</h2>
+    </div>
+    <div class="review-grid reveal">
+      <div class="review-card">
+        <div class="stars">★★★★★</div>
+        <p class="review-quote">Yatharth badalne se meri consistency badh gayi hai. Trainers genuinely guide karte hain, aur environment kabhi crowded feel nahi hota — training pe hi focus rehta hai.</p>
+        <div class="review-name">Sudhanshu</div>
+        <div class="review-role">Member since 2023</div>
+      </div>
+      <div class="review-card">
+        <div class="stars">★★★★★</div>
+        <p class="review-quote">Best gym experience abhi tak. Equipment premium hai, cleanliness top-notch, aur Gold plan ka diet chart follow karke 3 mahine mein hi fark dikhne laga.</p>
+        <div class="review-name">Lavish</div>
+        <div class="review-role">Member since 2024</div>
+      </div>
+      <div class="review-card">
+        <div class="stars">★★★★★</div>
+        <p class="review-quote">Group classes ka energy hi alag hai yahan. Personal training sessions ne meri form sudhaar di aur ab main pehle se zyada confident feel karti hoon.</p>
+        <div class="review-name">Khushi</div>
+        <div class="review-role">Member since 2024</div>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- CONTACT -->
+<section class="contact" id="contact">
+  <div class="container reveal">
+    <span class="eyebrow">Get In Touch</span>
+    <h2>Start Your <span class="gold-text">Journey</span> Today</h2>
+    <p>Reach out to book a free trial session or ask about membership plans.</p>
+    <div class="contact-links">
+      <a class="contact-pill" href="https://www.instagram.com/ym_webstudio?igsh=d2F5ZjRlc3ZlYWIz&utm_source=qr" target="_blank">
+        <div class="icon-3d small">
+          <svg width="22" height="22" viewBox="0 0 24 24" fill="none"><rect x="3" y="3" width="18" height="18" rx="5" fill="url(#gIg)" stroke="#8a6d2e" stroke-width="0.4"/><circle cx="12" cy="12" r="4" fill="none" stroke="#0c0b09" stroke-width="1.6"/><circle cx="17.5" cy="6.5" r="1" fill="#0c0b09"/><defs><linearGradient id="gIg" x1="0" y1="0" x2="24" y2="24"><stop offset="0%" stop-color="#f2dc9e"/><stop offset="50%" stop-color="#c8a24d"/><stop offset="100%" stop-color="#8a6d2e"/></linearGradient></defs></svg>
+        </div>
+        <span class="label"><b>Instagram</b><span>Tap to open profile</span></span>
+      </a>
+      <a class="contact-pill" href="mailto:ymwebstudio@gmail.com">
+        <div class="icon-3d small">
+          <svg width="22" height="22" viewBox="0 0 24 24" fill="none"><rect x="3" y="5" width="18" height="14" rx="2" fill="url(#gMail)" stroke="#8a6d2e" stroke-width="0.4"/><path d="M3 7l9 6 9-6" stroke="#0c0b09" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round"/><defs><linearGradient id="gMail" x1="0" y1="0" x2="24" y2="24"><stop offset="0%" stop-color="#f2dc9e"/><stop offset="50%" stop-color="#c8a24d"/><stop offset="100%" stop-color="#8a6d2e"/></linearGradient></defs></svg>
+        </div>
+        <span class="label"><b>Email Us</b><span>ymwebstudio@gmail.com</span></span>
+      </a>
+    </div>
+  </div>
+</section>
+
+<footer>
+  <div class="container footer-inner">
+    <p>© 2026 YATHARTH Gym. All rights reserved.</p>
+    <div class="credit">
+      Website by <a href="https://www.instagram.com/ym_webstudio?igsh=d2F5ZjRlc3ZlYWIz&utm_source=qr" target="_blank">YM Web Studio</a>
+    </div>
+  </div>
+</footer>
+
+<script src="script.js"></script>
+</body>
+</html>
