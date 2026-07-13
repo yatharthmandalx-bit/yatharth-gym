@@ -542,3 +542,46 @@ transition:.3s;
 #topBtn:hover{
 transform:scale(1.1);
 }
+
+/* ===========================
+EXTRA EFFECTS
+=========================== */
+
+.zoom{
+transform:scale(1.15)!important;
+z-index:1000;
+position:relative;
+transition:.4s;
+}
+
+#topBtn{
+position:fixed;
+bottom:25px;
+right:25px;
+width:55px;
+height:55px;
+display:none;
+justify-content:center;
+align-items:center;
+border:none;
+border-radius:50%;
+background:#FFD700;
+color:#000;
+font-size:22px;
+cursor:pointer;
+box-shadow:0 0 20px rgba(255,215,0,.5);
+z-index:9999;
+}
+
+#topBtn:hover{
+transform:scale(1.1);
+box-shadow:0 0 35px rgba(255,215,0,.8);
+}
+
+html{
+scroll-behavior:smooth;
+}
+
+body{
+transition:opacity .8s ease;
+}
