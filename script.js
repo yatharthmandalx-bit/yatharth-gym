@@ -235,3 +235,118 @@ img.classList.toggle("zoom");
 // Console Message
 
 console.log("🔥 YATHARTH GOLD GYM WEBSITE LOADED SUCCESSFULLY 🔥");
+
+// =========================
+// SCRIPT PART 2
+// =========================
+
+// Scroll To Top Button
+
+const topBtn = document.createElement("button");
+topBtn.id = "topBtn";
+topBtn.innerHTML = '<i class="fa-solid fa-arrow-up"></i>';
+document.body.appendChild(topBtn);
+
+topBtn.addEventListener("click", () => {
+  window.scrollTo({
+    top: 0,
+    behavior: "smooth"
+  });
+});
+
+window.addEventListener("scroll", () => {
+  if (window.scrollY > 400) {
+    topBtn.style.display = "flex";
+  } else {
+    topBtn.style.display = "none";
+  }
+});
+
+// Contact Form Demo
+
+const form = document.querySelector(".contact-form");
+
+if (form) {
+  form.addEventListener("submit", (e) => {
+    e.preventDefault();
+    alert("✅ Thank you! Your demo message has been received.");
+    form.reset();
+  });
+}
+
+// Fade In Animation
+
+const observer = new IntersectionObserver((entries) => {
+
+  entries.forEach(entry => {
+
+    if (entry.isIntersecting) {
+
+      entry.target.style.opacity = "1";
+      entry.target.style.transform = "translateY(0px)";
+
+    }
+
+  });
+
+}, {
+  threshold: 0.2
+});
+
+document.querySelectorAll("section").forEach(section => {
+
+  section.style.opacity = "0";
+  section.style.transform = "translateY(50px)";
+  section.style.transition = "0.8s ease";
+
+  observer.observe(section);
+
+});
+
+// =========================
+// SCRIPT PART 3
+// =========================
+
+// Gallery Image Zoom
+
+document.querySelectorAll(".gallery img").forEach(img => {
+
+  img.addEventListener("click", () => {
+
+    img.classList.toggle("zoom");
+
+  });
+
+});
+
+// Join Now Button
+
+const joinBtn = document.querySelector(".gold-btn");
+
+if (joinBtn) {
+
+  joinBtn.addEventListener("click", () => {
+
+    window.open(
+      "https://www.instagram.com/ym_webstudio?igsh=d2F5ZjRlc3ZlYWIz&utm_source=qr",
+      "_blank"
+    );
+
+  });
+
+}
+
+// Loading Effect
+
+document.body.style.opacity = "0";
+
+window.addEventListener("load", () => {
+
+  document.body.style.transition = "opacity .8s ease";
+  document.body.style.opacity = "1";
+
+});
+
+// Console Message
+
+console.log("🏆 YATHARTH GOLD GYM Premium Website Loaded Successfully");
